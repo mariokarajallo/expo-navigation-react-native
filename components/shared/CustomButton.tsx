@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Pressable, PressableProps } from "react-native";
+import { Pressable, PressableProps, Text, View } from "react-native";
 
 interface Props extends PressableProps {
   children: string;
