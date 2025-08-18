@@ -267,17 +267,8 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## ‍ Autor
 
-**Tu Nombre**
-
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-
-## Agradecimientos
-
-- [Expo](https://expo.dev) por la plataforma de desarrollo
-- [React Navigation](https://reactnavigation.org) por la navegación
-- [NativeWind](https://www.nativewind.dev) por los estilos
-- [Tailwind CSS](https://tailwindcss.com) por el framework de utilidades
+⌨️ con ❤️ por [Mario Karajallo](https://karajallo.com) 😊
 
 ---
 
-⭐ **¡No olvides dar una estrella al proyecto si te fue útil!**
+⭐ Si te gustó este proyecto, ¡no olvides darle una estrella!
