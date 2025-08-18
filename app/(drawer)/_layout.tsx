@@ -15,8 +15,23 @@ const DrawerLayout = () => {
         //   backgroundColor: "white",
         // },
         headerShadowVisible: false,
+        // headerShown: false,
       }}
     >
+      <Drawer.Screen
+        name="(tabs)"
+        options={{
+          headerShown: false,
+          drawerLabel: "Productos",
+          title: "Productos",
+          drawerIcon: ({ color, size }) => (
+            <Ionicons name="list" color={color} size={size} />
+          ),
+        }}
+        // initialParams={{
+        //   name: "Home",
+        // }}
+      />
       <Drawer.Screen
         name="user/index"
         options={{

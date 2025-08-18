@@ -1,10 +1,30 @@
 import { products } from "@/store/products.store";
-import { Stack } from "expo-router";
+import { Ionicons } from "@expo/vector-icons";
+import { DrawerActions } from "@react-navigation/native";
+import { Stack, useNavigation, useRouter } from "expo-router";
 
 const StackLayout = () => {
+  const navigation = useNavigation();
+  const router = useRouter();
+  const onHeaderLeftClick = (canGoBack: boolean | undefined) => {
+    if (canGoBack) {
+      router.back();
+    } else {
+      navigation.dispatch(DrawerActions.openDrawer);
+    }
+  };
+
   return (
     <Stack
       screenOptions={{
+        headerLeft: ({ tintColor, canGoBack }) => (
+          <Ionicons
+            name={canGoBack ? "arrow-back" : "menu"}
+            color={tintColor}
+            size={24}
+            onPress={() => onHeaderLeftClick(canGoBack)}
+          />
+        ),
         // headerShown: false,
         headerShadowVisible: false,
         contentStyle: {

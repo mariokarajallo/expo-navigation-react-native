@@ -61,7 +61,7 @@ const ProductCard = ({
               </Text>
             </View>
 
-            <Link href={`/tabs/(stack)/products/${id}`} asChild>
+            <Link href={`/products/${id}`} asChild>
               <Pressable className="bg-primary px-6 py-3 rounded-full active:opacity-90">
                 <Text className="text-white font-work-medium text-sm">
                   Ver detalles
