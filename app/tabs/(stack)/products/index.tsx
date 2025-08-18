@@ -13,7 +13,7 @@ const ProductsScreen = () => {
         keyExtractor={(item) => item}
         renderItem={({ item }) => (
           <View className="mt-4 p-4 bg-gray-50 rounded-lg">
-            <Link href={`/(stack)/products/category/${item}`}>
+            <Link href={`/tabs/(stack)/products/category/${item}`}>
               <Text className="text-xl font-work-medium">{item}</Text>
             </Link>
           </View>
