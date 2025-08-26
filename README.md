@@ -2,6 +2,10 @@
 
 Una aplicación móvil moderna desarrollada con **React Native** y **Expo Router** que demuestra implementaciones avanzadas de navegación, incluyendo Drawer, Tabs y Stack Navigation. La aplicación presenta una tienda de productos tecnológicos con categorías como Sonido, Wearables, Smartphones y Computadoras.
 
+## 📱 Capturas de Pantalla
+
+![preview](store-app-demo.gif)
+
 ## 📱 Características Principales
 
 - **Navegación Compleja**: Implementación de Drawer + Tabs + Stack Navigation
